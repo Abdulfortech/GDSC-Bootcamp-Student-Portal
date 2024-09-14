@@ -1,0 +1,167 @@
+/*****************
+    GENERAL CSS
+ ****************/
+ .text-color1{
+    color : #4285F4;
+ }
+ .text-color2{
+    color : #66757F;
+ }
+ .bg-color1{
+    background-color : #4285F4;
+ }
+ .bg-color2{
+    background-color : #66757F;
+ }
+.text-justify{
+    text-align: justify;
+}
+
+.border-bottom-success {
+    border-bottom: 3px solid #198754 !important;
+    
+  }
+
+  .page-card{
+      border-radius: 10px;
+  }
+  .page-card img{
+    width: 100%;
+    height: 450px;
+    border-radius: 10px 10px;
+  }
+  .page-card .body{
+      text-align: justify;
+  }
+
+  .profile-picture{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+  }
+
+/****************** 
+    GALLERY
+******************/
+.gallery{
+    border-radius: 10px;
+}
+.gallery img{
+    height: 230px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.gallery .card-body p{
+    text-align: justify;
+}
+
+.gallery .card-body{
+    height: 100px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    
+    .gallery .card-body h3{
+       font-size: 22px;
+    }
+    .gallery .card-body p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    .gallery img{
+        height: 200px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .gallery .card-body{
+        height: 212px;
+    }
+}
+
+/****************** 
+    SKILLS
+******************/
+.skill{
+    border-radius: 10px;   
+}
+.skill .card-body{
+    /* padding: 5px; */
+}
+ 
+@media only screen and (max-width: 767px) {
+    .skill{
+        padding: 5px;
+      }
+      .skill .card-body{
+        padding: 2px;
+        height:40px
+    }
+    .skill .card-body h5{
+       font-size: 15px;
+    }
+}
+
+/*****************
+    BLOG
+ ****************/
+ .blog{
+    border-radius: 10px;
+}
+.blog img{
+   width: 100%;
+   height: 180px;
+   border-radius: 10px 10px 0px 0px;
+}
+.blog .card-body{
+    height: 200px;
+}
+
+.blog .card-body p{
+    text-align: justify;
+}
+
+.blog .card-body h5{
+    text-align: left;
+}
+
+/*****************
+    FOOTER
+ ****************/
+
+footer.page-footer {
+    bottom: 0;
+    background-color: #66757F;
+    color: #fff; }
+footer.page-footer .container-fluid {
+      width: auto; }
+footer.page-footer .footer-copyright {
+      overflow: hidden;
+      color: rgba(255, 255, 255, 0.6);
+      background-color: rgba(0, 0, 0, 0.2); }
+footer.page-footer a {
+      color: #fff; }
+
+/*****************
+    CONTACT
+******************/
+
+.contact-box{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.contact-box .card-body i{
+    font-size: 100px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .contact-box .card-body i{
+        font-size: 60px;
+      }
+    
+    .contact-box .card-body h5{
+    font-size: 12px;
+    }
+}
