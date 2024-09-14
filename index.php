@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="Abdullahi Aminu">
 	<meta name="twitter handle" content="Abdulfortech">
-	<title>Student Portal App | Sign Up</title>
+	<title>Student Portal App | Sign In</title>
 	<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/heroes/">
   <!-- Bootstrap core CSS -->
   <link href="vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
