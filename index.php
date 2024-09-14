@@ -36,7 +36,7 @@
                 <center><input type="submit" name="signin" class="btn btn-success mt-4 mb-3" value="Sign In"></center>
                 <p class="text-center text-success">
                   Don't have account? <a href="signup">Sign Up</a> <br> 
-                  Forget Password ? <a href="reset">Reset</a>
+                  Forget Password ? <a href="#">Reset</a>
                 </p>
               </div>
             </form>
